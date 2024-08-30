@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-LABEL DevOps ="Fazila"
+LABEL DevOps="Fazila"
 
 RUN apt-get update && \
     apt-get install -y apache && \
