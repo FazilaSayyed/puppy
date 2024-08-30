@@ -3,7 +3,7 @@ FROM ubuntu:latest
 LABEL DevOps="Fazila"
 
 RUN apt update && \
-    apt install apache -y && \
+    apt install apache2 -y && \
     apt clean
 
     
