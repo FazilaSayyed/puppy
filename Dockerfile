@@ -11,4 +11,4 @@ EXPOSE 80
    
 COPY ./tommy/ /var/www/html/
 
-CMD ["apache2ctl" , "-D" , "FOREGROUND"]     
+CMD ["apachectl" , "-D" , "FOREGROUND"]     
