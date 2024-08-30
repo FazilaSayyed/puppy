@@ -2,9 +2,9 @@ FROM ubuntu:latest
 
 LABEL DevOps="Fazila"
 
-RUN apt-get update && \
-    apt-get install apache -y && \
-    apt-get clean
+RUN apt update && \
+    apt install apache -y && \
+    apt clean
 
     
 EXPOSE 80
